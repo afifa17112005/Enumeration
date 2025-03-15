@@ -60,7 +60,7 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
-file:///home/sec/Pictures/Screenshots/Screenshot%20from%202025-03-15%2014-24-53.png![image](https://github.com/user-attachments/assets/85db10f6-49ac-47bf-a32a-a927a6cc7896)
+[image](https://github.com/user-attachments/assets/85db10f6-49ac-47bf-a32a-a927a6cc7896)
 
 
 
@@ -99,8 +99,7 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
-  file:///home/sec/Pictures/Screenshots/Screenshot%20from%202025-03-15%2014-35-15.png![image](https://github.com/user-attachments/assets/7c00b237-96cd-4dc9-b45e-328628e0f4b6)
+  [image](https://github.com/user-attachments/assets/7c00b237-96cd-4dc9-b45e-328628e0f4b6)
 
 
 ## nmap –script smtp-enum-users.nse <hostname>
