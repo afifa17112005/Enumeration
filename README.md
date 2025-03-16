@@ -32,24 +32,34 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![Screenshot 2025-03-15 131946](https://github.com/user-attachments/assets/35e39e75-eaed-4feb-b4c0-7e5203a1950c)
+
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
+![Screenshot 2025-03-15 132022](https://github.com/user-attachments/assets/c75c4c8c-46d0-42e6-9ec8-1b4e5f636706)
 
 
-intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.![Screenshot 2025-03-15 132101](https://github.com/user-attachments/assets/eb76479f-14ee-4176-96df-09ef2cacd450)
+
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![Screenshot 2025-03-15 132145](https://github.com/user-attachments/assets/4193a3a8-7033-4860-b571-c6a2c2a9e99e)
+
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![Screenshot 2025-03-15 132244](https://github.com/user-attachments/assets/78402874-17e4-47ad-be7f-a385f06fea66)
 
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+
+link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.![Screenshot 2025-03-15 132331](https://github.com/user-attachments/assets/06e930f3-4da6-4345-a82f-0b35e75cf476)
+
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
- 
+ ![Screenshot 2025-03-15 133711](https://github.com/user-attachments/assets/ee3fd5a0-a93d-4c35-bfdc-3809a1caac0a)
+
 #DNS Enumeration
 
 
@@ -60,9 +70,10 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
-(https://github.com/user-attachments/assets/85db10f6-49ac-47bf-a32a-a927a6cc7896)
 
 
+
+![Screenshot 2025-03-15 142604](https://github.com/user-attachments/assets/b44f32a1-6404-4989-b91f-1f9b08cd4822)
 
 
 
@@ -86,12 +97,15 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+![Screenshot 2025-03-15 141048](https://github.com/user-attachments/assets/7cff3776-3eaa-40c0-8d2a-0338c4785932)
+
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
 
+![Screenshot 2025-03-15 143211](https://github.com/user-attachments/assets/2d034559-610d-4e55-949b-b23acbb1f22f)
 
 #Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
@@ -99,7 +113,7 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  (https://github.com/user-attachments/assets/7c00b237-96cd-4dc9-b45e-328628e0f4b6)
+![Screenshot 2025-03-15 142628](https://github.com/user-attachments/assets/13fc3f91-e761-4c9b-a1a8-c24df5c687a2)
 
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -108,6 +122,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![Screenshot 2025-03-15 143312](https://github.com/user-attachments/assets/674f1fd4-2769-4d36-84e3-64780ca9e665)
 
 
 ## RESULT:
